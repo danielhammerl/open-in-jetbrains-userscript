@@ -104,12 +104,6 @@
 
         if (codeButton) {
             codeButton.parentElement.appendChild(ui);
-        } else {
-            ui.style.position = "fixed";
-            ui.style.left = "20px";
-            ui.style.top = "200px";
-            ui.style.zIndex = "9999";
-            document.body.appendChild(ui);
         }
     }
 
